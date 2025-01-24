@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameplayType: 2
   profilePictureSmall: {fileID: 2800000, guid: 83165809f673602489348a9a0d222cea, type: 3}
-  profilePictureBig: {fileID: 2800000, guid: e6f43d0a029116142b97009a6f46de43, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: 83165809f673602489348a9a0d222cea, type: 3}
   characterName: Elon Tusk
   gender: 1
   characterDescription: 'Project: Arena 3D
