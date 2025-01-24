@@ -163,11 +163,19 @@ MonoBehaviour:
           possibleStagesIndexes: 00000000
         showOpponentsInEditor: 1
       showStoryInEditor: 1
-    selectableCharactersInStoryMode: 00000000
-    selectableCharactersInVersusMode: 00000000
+    selectableCharactersInStoryMode: 000000000100000002000000
+    selectableCharactersInVersusMode: 000000000100000002000000
     characterStories:
-      _keys: 00000000
+      _keys: 000000000100000002000000
       _values:
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups: []
@@ -805,7 +813,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -950,7 +958,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1147,6 +1155,8 @@ MonoBehaviour:
         _serializedValue: 0
   characters:
   - {fileID: 11400000, guid: a3d533cb3aac77749a1894bf08b8ef41, type: 2}
+  - {fileID: 11400000, guid: 2c97340bfbf6963478c0671a3e1f731a, type: 2}
+  - {fileID: 11400000, guid: 8b37eb32a581a9b468b4ad69f71bd35b, type: 2}
   teamModes:
   - modeName: Tag Battle (Tekken TT) - 3D 2v2 Tag Team
     teams:
@@ -1268,6 +1278,7 @@ MonoBehaviour:
     aiOpponent: 0
     challengeSequence: 0
     autoMoveNext: 1
+    reloadMatch: 0
     skipOutro: 0
     nextChallengeDelay: 1
     actionListToggle: 1
@@ -1286,6 +1297,7 @@ MonoBehaviour:
     aiOpponent: 0
     challengeSequence: 0
     autoMoveNext: 1
+    reloadMatch: 0
     skipOutro: 0
     nextChallengeDelay: 1
     actionListToggle: 1
@@ -1304,6 +1316,7 @@ MonoBehaviour:
     aiOpponent: 0
     challengeSequence: 0
     autoMoveNext: 1
+    reloadMatch: 0
     skipOutro: 0
     nextChallengeDelay: 1
     actionListToggle: 1
@@ -1322,6 +1335,7 @@ MonoBehaviour:
     aiOpponent: 0
     challengeSequence: 0
     autoMoveNext: 1
+    reloadMatch: 0
     skipOutro: 0
     nextChallengeDelay: 1
     actionListToggle: 1
@@ -1340,6 +1354,7 @@ MonoBehaviour:
     aiOpponent: 0
     challengeSequence: 0
     autoMoveNext: 1
+    reloadMatch: 0
     skipOutro: 0
     nextChallengeDelay: 1
     actionListToggle: 1
@@ -1358,6 +1373,7 @@ MonoBehaviour:
     aiOpponent: 0
     challengeSequence: 1
     autoMoveNext: 1
+    reloadMatch: 0
     skipOutro: 0
     nextChallengeDelay: 0.6
     actionListToggle: 1
@@ -1536,9 +1552,9 @@ MonoBehaviour:
     inputMessageFrequency: 0
     synchronizationMessageFrequency: 0
     synchronizationAction: 1
-  music: 0
-  musicVolume: 0.29708967
-  soundfx: 0
+  music: 1
+  musicVolume: 1
+  soundfx: 1
   soundfxVolume: 1
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
