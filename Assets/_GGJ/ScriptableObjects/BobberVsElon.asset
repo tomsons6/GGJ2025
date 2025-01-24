@@ -90,7 +90,8 @@ MonoBehaviour:
     optionsScreen: {fileID: 0}
     creditsScreen: {fileID: 0}
     pauseScreen: {fileID: 0}
-    characterSelectionScreen: {fileID: 0}
+    characterSelectionScreen: {fileID: 11400026, guid: 60b83ceb6038e9744b47512c279666d2,
+      type: 3}
     teamSelectionScreen: {fileID: 0}
     stageSelectionScreen: {fileID: 0}
     loadingBattleScreen: {fileID: 0}
@@ -123,11 +124,15 @@ MonoBehaviour:
       ending: {fileID: 0}
       fightsGroups: []
       showStoryInEditor: 0
-    selectableCharactersInStoryMode: 
-    selectableCharactersInVersusMode: 
+    selectableCharactersInStoryMode: 00000000
+    selectableCharactersInVersusMode: 00000000
     characterStories:
-      _keys: 
-      _values: []
+      _keys: 00000000
+      _values:
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
   fps: 60
   _gameSpeed:
     _serializedValue: 4294967296
@@ -140,7 +145,7 @@ MonoBehaviour:
   preloadHitEffects: 1
   warmAllShaders: 1
   _gravity:
-    _serializedValue: 1589137899
+    _serializedValue: 1589137920
   detect3D_Hits: 0
   lockZAxis: 1
   runInBackground: 0
@@ -789,7 +794,8 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-  characters: []
+  characters:
+  - {fileID: 0}
   teamModes: []
   debugOptions:
     debugMode: 0
