@@ -124,11 +124,15 @@ MonoBehaviour:
       ending: {fileID: 0}
       fightsGroups: []
       showStoryInEditor: 0
-    selectableCharactersInStoryMode: 00000000
-    selectableCharactersInVersusMode: 00000000
+    selectableCharactersInStoryMode: 0000000001000000
+    selectableCharactersInVersusMode: 0000000001000000
     characterStories:
-      _keys: 00000000
+      _keys: 0000000001000000
       _values:
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups: []
@@ -795,7 +799,8 @@ MonoBehaviour:
       z:
         _serializedValue: 0
   characters:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 2c97340bfbf6963478c0671a3e1f731a, type: 2}
+  - {fileID: 11400000, guid: 8b37eb32a581a9b468b4ad69f71bd35b, type: 2}
   teamModes: []
   debugOptions:
     debugMode: 0

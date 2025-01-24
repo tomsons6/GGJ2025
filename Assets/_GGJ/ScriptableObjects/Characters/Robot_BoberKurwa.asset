@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e2e5269517f28664db5ccd78cbd208b1, type: 3}
-  m_Name: Robot_ElonTuskArena
+  m_Name: Robot_BoberKurwa
   m_EditorClassIdentifier: 
   gameplayType: 2
-  profilePictureSmall: {fileID: 2800000, guid: 83165809f673602489348a9a0d222cea, type: 3}
-  profilePictureBig: {fileID: 2800000, guid: e6f43d0a029116142b97009a6f46de43, type: 3}
-  characterName: Elon Tusk
+  profilePictureSmall: {fileID: 2800000, guid: f6cd0e932ab14864783b2925a52ab9f6, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: f6cd0e932ab14864783b2925a52ab9f6, type: 3}
+  characterName: Bober Kurwa
   gender: 1
   characterDescription: 'Project: Arena 3D
 

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Config_Arena3D
   m_EditorClassIdentifier: 
   version: 2
-  player1Character: {fileID: 0}
-  player2Character: {fileID: 0}
+  player1Character: {fileID: 11400000, guid: a3d533cb3aac77749a1894bf08b8ef41, type: 2}
+  player2Character: {fileID: 11400000, guid: a3d533cb3aac77749a1894bf08b8ef41, type: 2}
   player1Team:
   - {fileID: 11400000, guid: 56b90e0e72e9aa5408f34fa9179b76ad, type: 2}
   - {fileID: 11400000, guid: 56b90e0e72e9aa5408f34fa9179b76ad, type: 2}
@@ -813,7 +813,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
