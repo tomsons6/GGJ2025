@@ -90,7 +90,7 @@ MonoBehaviour:
     mainMenuScreen: {fileID: 11400002, guid: 2b2726f0bb04b804b9f0113bb8b6d8ed, type: 3}
     optionsScreen: {fileID: 0}
     creditsScreen: {fileID: 0}
-    pauseScreen: {fileID: 0}
+    pauseScreen: {fileID: 11400000, guid: 4bb7eddb28e4caf448199916dfd16a99, type: 3}
     characterSelectionScreen: {fileID: 11400026, guid: 60b83ceb6038e9744b47512c279666d2,
       type: 3}
     teamSelectionScreen: {fileID: 0}
@@ -103,7 +103,8 @@ MonoBehaviour:
     storyModeGameOverScreen: {fileID: 0}
     storyModeCongratulationsScreen: {fileID: 0}
     versusModeScreen: {fileID: 11400002, guid: 6878dde570a5b5e4eb109918600509f1, type: 3}
-    versusModeAfterBattleScreen: {fileID: 0}
+    versusModeAfterBattleScreen: {fileID: 11400022, guid: 11572171bcc16ab488746649827683b5,
+      type: 3}
     challengeModeScreen: {fileID: 0}
     challengeModeOverlay: {fileID: 0}
     challengeModeAfterBattleScreen: {fileID: 0}
