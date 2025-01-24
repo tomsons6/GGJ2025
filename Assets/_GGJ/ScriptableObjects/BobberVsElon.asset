@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: BobberVsElon
   m_EditorClassIdentifier: 
   version: 0
-  player1Character: {fileID: 0}
-  player2Character: {fileID: 0}
+  player1Character: {fileID: 11400000, guid: 8b37eb32a581a9b468b4ad69f71bd35b, type: 2}
+  player2Character: {fileID: 11400000, guid: 2c97340bfbf6963478c0671a3e1f731a, type: 2}
   player1Team: []
   player2Team: []
   selectedStage:
@@ -93,7 +93,8 @@ MonoBehaviour:
     characterSelectionScreen: {fileID: 11400026, guid: 60b83ceb6038e9744b47512c279666d2,
       type: 3}
     teamSelectionScreen: {fileID: 0}
-    stageSelectionScreen: {fileID: 0}
+    stageSelectionScreen: {fileID: 11400008, guid: 666646f28db5d2240ae3df923ad0c72f,
+      type: 3}
     loadingBattleScreen: {fileID: 0}
     battleGUI: {fileID: 11400032, guid: 3cc97a7591eae4678bb26cd12746e0ec, type: 3}
     storyModeContinueScreen: {fileID: 0}
