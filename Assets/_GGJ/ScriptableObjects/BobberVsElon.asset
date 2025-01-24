@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: BobberVsElon
   m_EditorClassIdentifier: 
   version: 0
-  player1Character: {fileID: 0}
-  player2Character: {fileID: 0}
+  player1Character: {fileID: 11400000, guid: 8b37eb32a581a9b468b4ad69f71bd35b, type: 2}
+  player2Character: {fileID: 11400000, guid: 2c97340bfbf6963478c0671a3e1f731a, type: 2}
   player1Team: []
   player2Team: []
   selectedStage:
-    stageName: MainStage
+    stageName: 
     stageLoadingMethod: 0
     stagePath: 
     screenshot: {fileID: 0}
-    prefab: {fileID: 100000, guid: 1f34f492dfe68d94bab52ee9ab988da6, type: 3}
+    prefab: {fileID: 0}
     music: {fileID: 0}
     _groundFriction:
       _serializedValue: 429496729600
@@ -85,7 +85,7 @@ MonoBehaviour:
       scaleFactor: 1
       screenMatchMode: 0
       scaleMode: 0
-    introScreen: {fileID: 0}
+    introScreen: {fileID: 11400002, guid: bd1f026511947bc40a75dedb1805ea22, type: 3}
     mainMenuScreen: {fileID: 11400002, guid: 2b2726f0bb04b804b9f0113bb8b6d8ed, type: 3}
     optionsScreen: {fileID: 0}
     creditsScreen: {fileID: 0}
@@ -93,8 +93,10 @@ MonoBehaviour:
     characterSelectionScreen: {fileID: 11400026, guid: 60b83ceb6038e9744b47512c279666d2,
       type: 3}
     teamSelectionScreen: {fileID: 0}
-    stageSelectionScreen: {fileID: 0}
-    loadingBattleScreen: {fileID: 0}
+    stageSelectionScreen: {fileID: 11400008, guid: 666646f28db5d2240ae3df923ad0c72f,
+      type: 3}
+    loadingBattleScreen: {fileID: 11400008, guid: 46a9a37ada3d15a4288ac2b3d08052ee,
+      type: 3}
     battleGUI: {fileID: 11400032, guid: 3cc97a7591eae4678bb26cd12746e0ec, type: 3}
     storyModeContinueScreen: {fileID: 0}
     storyModeGameOverScreen: {fileID: 0}
