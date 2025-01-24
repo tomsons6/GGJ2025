@@ -18,11 +18,11 @@ MonoBehaviour:
   player1Team: []
   player2Team: []
   selectedStage:
-    stageName: MainStage
+    stageName: 
     stageLoadingMethod: 0
     stagePath: 
     screenshot: {fileID: 0}
-    prefab: {fileID: 100000, guid: 1f34f492dfe68d94bab52ee9ab988da6, type: 3}
+    prefab: {fileID: 0}
     music: {fileID: 0}
     _groundFriction:
       _serializedValue: 429496729600
@@ -95,7 +95,8 @@ MonoBehaviour:
     teamSelectionScreen: {fileID: 0}
     stageSelectionScreen: {fileID: 11400008, guid: 666646f28db5d2240ae3df923ad0c72f,
       type: 3}
-    loadingBattleScreen: {fileID: 0}
+    loadingBattleScreen: {fileID: 11400008, guid: 46a9a37ada3d15a4288ac2b3d08052ee,
+      type: 3}
     battleGUI: {fileID: 11400032, guid: 3cc97a7591eae4678bb26cd12746e0ec, type: 3}
     storyModeContinueScreen: {fileID: 0}
     storyModeGameOverScreen: {fileID: 0}
