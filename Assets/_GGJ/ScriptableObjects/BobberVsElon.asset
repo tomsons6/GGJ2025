@@ -99,7 +99,7 @@ MonoBehaviour:
     storyModeContinueScreen: {fileID: 0}
     storyModeGameOverScreen: {fileID: 0}
     storyModeCongratulationsScreen: {fileID: 0}
-    versusModeScreen: {fileID: 0}
+    versusModeScreen: {fileID: 11400002, guid: 6878dde570a5b5e4eb109918600509f1, type: 3}
     versusModeAfterBattleScreen: {fileID: 0}
     challengeModeScreen: {fileID: 0}
     challengeModeOverlay: {fileID: 0}
