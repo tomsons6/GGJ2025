@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03f9522b1b0f53b4c87d047ac5c3794f, type: 3}
-  m_Name: FireBall
+  m_Name: BubbleLaunch
   m_EditorClassIdentifier: 
   gameplayType: 2
   animMap:
@@ -7166,8 +7166,7 @@ MonoBehaviour:
     nonAffectedBodyParts: 
   projectiles:
   - castingFrame: 12
-    projectilePrefab: {fileID: 4578204741230265397, guid: 7608c29271e444f41adefd65a5ecc6ed,
-      type: 3}
+    projectilePrefab: {fileID: 100000, guid: e0629515d33ba6e4e9b138227446813f, type: 3}
     impactPrefab: {fileID: 100008, guid: 270642c674ce99b44ae5263686a8642c, type: 3}
     bodyPart: 8
     hitBoxDefinitionIndex: 0
