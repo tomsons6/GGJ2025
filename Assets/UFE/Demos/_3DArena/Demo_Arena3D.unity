@@ -410,6 +410,80 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!1001 &3072374513173223143
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2765823178086615120, guid: 3ea53e9490796094db2c4117a1963981,
+        type: 3}
+      propertyPath: m_Name
+      value: BobraKurwa_mixamo
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765823178086615120, guid: 3ea53e9490796094db2c4117a1963981,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254410563988837098, guid: 3ea53e9490796094db2c4117a1963981,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254410563988837098, guid: 3ea53e9490796094db2c4117a1963981,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254410563988837098, guid: 3ea53e9490796094db2c4117a1963981,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254410563988837098, guid: 3ea53e9490796094db2c4117a1963981,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254410563988837098, guid: 3ea53e9490796094db2c4117a1963981,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254410563988837098, guid: 3ea53e9490796094db2c4117a1963981,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254410563988837098, guid: 3ea53e9490796094db2c4117a1963981,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254410563988837098, guid: 3ea53e9490796094db2c4117a1963981,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254410563988837098, guid: 3ea53e9490796094db2c4117a1963981,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254410563988837098, guid: 3ea53e9490796094db2c4117a1963981,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254410563988837098, guid: 3ea53e9490796094db2c4117a1963981,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ea53e9490796094db2c4117a1963981, type: 3}
 --- !u!1001 &6573497860615381823
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -476,6 +550,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RocketModel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578204741230265397, guid: 7608c29271e444f41adefd65a5ecc6ed,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7608c29271e444f41adefd65a5ecc6ed, type: 3}
