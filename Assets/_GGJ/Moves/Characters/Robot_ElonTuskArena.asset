@@ -128,7 +128,7 @@ MonoBehaviour:
   useAnimationMaps: 0
   normalizeAnimationFrames: 0
   stanceResourcePath:
-  - _3DArena\MoveSets\Boberstance2
+  - _3DArena\MoveSets\ElonStance2
   moves: []
   aiInstructionsSet:
   - aiInfo: {fileID: 11400000, guid: 5c7f03bfedfeaca42a91e28c053f9ce0, type: 2}
