@@ -196,7 +196,7 @@ MonoBehaviour:
   deploymentOptions:
     deploymentType: 1
     activeCharacters:
-    - {fileID: 11400000, guid: 2c97340bfbf6963478c0671a3e1f731a, type: 2}
+    - {fileID: 11400000, guid: 8b37eb32a581a9b468b4ad69f71bd35b, type: 2}
     - {fileID: 11400000, guid: 8d703e98c38751746b931956d98d53d0, type: 2}
     AIControlled: 0000
     selectedTeamMode: 0
