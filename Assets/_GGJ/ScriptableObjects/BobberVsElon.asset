@@ -180,7 +180,7 @@ MonoBehaviour:
     finalRound: Final Round
     fight: Fight!
     firstHit: First Hit!
-    combo: '%number% hit combo!'
+    combo: Wombo combo!
     parry: Parry!
     counterHit: Counter!
     victory: '%character% wins!'
