@@ -767,8 +767,296 @@ MonoBehaviour:
       _shakeCameraDensity:
         _serializedValue: 3435973836
       editorToggle: 0
-  player1_Inputs: []
-  player2_Inputs: []
+  player1_Inputs:
+  - inputType: 0
+    inputButtonName: P1KeyboardHorizontal
+    engineRelatedButton: 0
+    joystickAxisName: P1JoystickHorizontal
+    cInputPositiveKeyName: P1Right
+    cInputPositiveDefaultKey: D
+    cInputPositiveAlternativeKey: Joy1 Axis 1+
+    cInputNegativeKeyName: P1Left
+    cInputNegativeDefaultKey: A
+    cInputNegativeAlternativeKey: Joy1 Axis 1-
+    inputViewerIcon1: {fileID: 2800000, guid: f029529e09f1c12428dcc1a8c7dcb91c, type: 3}
+    inputViewerIcon2: {fileID: 2800000, guid: 0f1eb58df8917b74f804b8cb97615fd5, type: 3}
+    inputViewerIcon3: {fileID: 2800000, guid: 917c18f4aaf6f3a41a72d01a8fa79c1a, type: 3}
+    inputViewerIcon4: {fileID: 2800000, guid: a2811adde7913ac46a9b47b6cd73abd7, type: 3}
+    inputViewerIcon5: {fileID: 2800000, guid: 10d86991785f12942b8581c6ed5a0f1f, type: 3}
+    inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
+  - inputType: 1
+    inputButtonName: P1KeyboardVertical
+    engineRelatedButton: 3
+    joystickAxisName: P1JoystickVertical
+    cInputPositiveKeyName: P1Up
+    cInputPositiveDefaultKey: W
+    cInputPositiveAlternativeKey: Joy1 Axis 2+
+    cInputNegativeKeyName: P1Down
+    cInputNegativeDefaultKey: S
+    cInputNegativeAlternativeKey: Joy1 Axis 2-
+    inputViewerIcon1: {fileID: 2800000, guid: 0f803e1627a596e468c46d268cea841a, type: 3}
+    inputViewerIcon2: {fileID: 2800000, guid: 7681f77e08529604096afaded862f563, type: 3}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P1Button1
+    engineRelatedButton: 4
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: T
+    cInputPositiveAlternativeKey: Joystick1Button0
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: 44dd7049b4286cb429154691fc16a0ae, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P1Button2
+    engineRelatedButton: 5
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: Y
+    cInputPositiveAlternativeKey: Joystick1Button1
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: b645b84b92239ac4e81cad4802c7d032, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P1Button3
+    engineRelatedButton: 6
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: U
+    cInputPositiveAlternativeKey: Joystick1Button2
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: 754551564b367f24da34c48590c306df, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P1Button4
+    engineRelatedButton: 7
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: G
+    cInputPositiveAlternativeKey: Joystick1Button3
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: d20d91e4857c2204e850158037155457, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P1Button5
+    engineRelatedButton: 8
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: H
+    cInputPositiveAlternativeKey: Joystick1Button4
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: fa0d984a6d12fda47940eea0201a6431, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P1Button6
+    engineRelatedButton: 9
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: J
+    cInputPositiveAlternativeKey: Joystick1Button5
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: b95421dc6f1a4b74aaf1833fb225074c, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P1Start
+    engineRelatedButton: 20
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 0}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  player2_Inputs:
+  - inputType: 0
+    inputButtonName: P2KeyboardHorizontal
+    engineRelatedButton: 0
+    joystickAxisName: P2JoystickHorizontal
+    cInputPositiveKeyName: P2Right
+    cInputPositiveDefaultKey: RightArrow
+    cInputPositiveAlternativeKey: Joy2 Axis 1+
+    cInputNegativeKeyName: P2Left
+    cInputNegativeDefaultKey: LeftArrow
+    cInputNegativeAlternativeKey: Joy2 Axis 1-
+    inputViewerIcon1: {fileID: 2800000, guid: f029529e09f1c12428dcc1a8c7dcb91c, type: 3}
+    inputViewerIcon2: {fileID: 2800000, guid: 0f1eb58df8917b74f804b8cb97615fd5, type: 3}
+    inputViewerIcon3: {fileID: 2800000, guid: 917c18f4aaf6f3a41a72d01a8fa79c1a, type: 3}
+    inputViewerIcon4: {fileID: 2800000, guid: a2811adde7913ac46a9b47b6cd73abd7, type: 3}
+    inputViewerIcon5: {fileID: 2800000, guid: 10d86991785f12942b8581c6ed5a0f1f, type: 3}
+    inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
+  - inputType: 1
+    inputButtonName: P2KeyboardVertical
+    engineRelatedButton: 2
+    joystickAxisName: P2JoystickVertical
+    cInputPositiveKeyName: P2Up
+    cInputPositiveDefaultKey: UpArrow
+    cInputPositiveAlternativeKey: Joy2 Axis 2+
+    cInputNegativeKeyName: P2Down
+    cInputNegativeDefaultKey: DownArrow
+    cInputNegativeAlternativeKey: Joy2 Axis 2-
+    inputViewerIcon1: {fileID: 2800000, guid: 0f803e1627a596e468c46d268cea841a, type: 3}
+    inputViewerIcon2: {fileID: 2800000, guid: 7681f77e08529604096afaded862f563, type: 3}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P2Button1
+    engineRelatedButton: 4
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: Insert
+    cInputPositiveAlternativeKey: Joystick2Button0
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: 44dd7049b4286cb429154691fc16a0ae, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P2Button2
+    engineRelatedButton: 5
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: Home
+    cInputPositiveAlternativeKey: Joystick2Button1
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: b645b84b92239ac4e81cad4802c7d032, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P2Button3
+    engineRelatedButton: 6
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: PageUp
+    cInputPositiveAlternativeKey: Joystick2Button2
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: 754551564b367f24da34c48590c306df, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P2Button4
+    engineRelatedButton: 7
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: Delete
+    cInputPositiveAlternativeKey: Joystick2Button3
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: d20d91e4857c2204e850158037155457, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P2Button5
+    engineRelatedButton: 8
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: End
+    cInputPositiveAlternativeKey: Joystick2Button4
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: fa0d984a6d12fda47940eea0201a6431, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P2Button6
+    engineRelatedButton: 9
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: PageDown
+    cInputPositiveAlternativeKey: Joystick2Button5
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 2800000, guid: b95421dc6f1a4b74aaf1833fb225074c, type: 3}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
+  - inputType: 2
+    inputButtonName: P2Start
+    engineRelatedButton: 20
+    joystickAxisName: 
+    cInputPositiveKeyName: 
+    cInputPositiveDefaultKey: 
+    cInputPositiveAlternativeKey: 
+    cInputNegativeKeyName: 
+    cInputNegativeDefaultKey: 
+    cInputNegativeAlternativeKey: 
+    inputViewerIcon1: {fileID: 0}
+    inputViewerIcon2: {fileID: 0}
+    inputViewerIcon3: {fileID: 0}
+    inputViewerIcon4: {fileID: 0}
+    inputViewerIcon5: {fileID: 0}
+    inputViewerIcon6: {fileID: 0}
   inputOptions:
     inputManagerType: 0
     cInputAllowDuplicates: 0
@@ -780,8 +1068,8 @@ MonoBehaviour:
     controlFreak2Prefab: {fileID: 0}
     controlFreakDeadZone: 0.5
     forceDigitalInput: 1
-    confirmButton: 0
-    cancelButton: 0
+    confirmButton: 4
+    cancelButton: 7
   stages:
   - stageName: Arena Perdole
     stageLoadingMethod: 0
