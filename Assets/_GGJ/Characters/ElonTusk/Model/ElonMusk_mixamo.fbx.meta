@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d28e58eb61bf6304e814aaf697e655d0
+guid: ad16924f1cc06ae4b8e390d7432d2f72
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,8 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material_0_Pbr
-    second: {fileID: 2100000, guid: 1cd1ef151a3bd1740a1e316b5f86f378, type: 2}
+      name: Elon_00
+    second: {fileID: 2100000, guid: f8aafd4faed0d3246a0c165ec9576e39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Elon_01
+    second: {fileID: 2100000, guid: c94a6bfabb02d9344b5b44716f6c0d81, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -29,7 +34,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -97,13 +102,13 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 3
+  animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0

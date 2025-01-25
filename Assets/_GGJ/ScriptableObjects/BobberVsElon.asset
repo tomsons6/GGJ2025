@@ -13,17 +13,18 @@ MonoBehaviour:
   m_Name: BobberVsElon
   m_EditorClassIdentifier: 
   version: 0
-  player1Character: {fileID: 11400000, guid: 8b37eb32a581a9b468b4ad69f71bd35b, type: 2}
-  player2Character: {fileID: 11400000, guid: 2c97340bfbf6963478c0671a3e1f731a, type: 2}
+  player1Character: {fileID: 0}
+  player2Character: {fileID: 0}
   player1Team: []
   player2Team: []
   selectedStage:
-    stageName: 
+    stageName: Arena Perdole
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 0}
-    prefab: {fileID: 0}
-    music: {fileID: 0}
+    screenshot: {fileID: 2800000, guid: a256a2337e4c83f43b530aeb759c0435, type: 3}
+    prefab: {fileID: 3057140392509417786, guid: d1b4c1cf260b40c44b4529e3ddcc3706,
+      type: 3}
+    music: {fileID: 8300000, guid: 5f856a9343011034bae9fcb1adab8b14, type: 3}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
@@ -89,7 +90,7 @@ MonoBehaviour:
     mainMenuScreen: {fileID: 11400002, guid: 2b2726f0bb04b804b9f0113bb8b6d8ed, type: 3}
     optionsScreen: {fileID: 0}
     creditsScreen: {fileID: 0}
-    pauseScreen: {fileID: 0}
+    pauseScreen: {fileID: 11400000, guid: 4bb7eddb28e4caf448199916dfd16a99, type: 3}
     characterSelectionScreen: {fileID: 11400026, guid: 60b83ceb6038e9744b47512c279666d2,
       type: 3}
     teamSelectionScreen: {fileID: 0}
@@ -102,7 +103,8 @@ MonoBehaviour:
     storyModeGameOverScreen: {fileID: 0}
     storyModeCongratulationsScreen: {fileID: 0}
     versusModeScreen: {fileID: 11400002, guid: 6878dde570a5b5e4eb109918600509f1, type: 3}
-    versusModeAfterBattleScreen: {fileID: 0}
+    versusModeAfterBattleScreen: {fileID: 11400022, guid: 11572171bcc16ab488746649827683b5,
+      type: 3}
     challengeModeScreen: {fileID: 0}
     challengeModeOverlay: {fileID: 0}
     challengeModeAfterBattleScreen: {fileID: 0}

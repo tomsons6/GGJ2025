@@ -244,6 +244,7 @@ MonoBehaviour:
     dollyAngle: 0
     distance3d: 15
     height3d: 4
+    stabilizeDolly: 1
     enableZoom: 1
     followCharacters: 0
     initialFieldOfView: 40
@@ -1278,6 +1279,7 @@ MonoBehaviour:
     aiOpponent: 0
     challengeSequence: 0
     autoMoveNext: 1
+    reloadMatch: 0
     skipOutro: 0
     nextChallengeDelay: 1
     actionListToggle: 1
@@ -1296,6 +1298,7 @@ MonoBehaviour:
     aiOpponent: 0
     challengeSequence: 0
     autoMoveNext: 1
+    reloadMatch: 0
     skipOutro: 0
     nextChallengeDelay: 1
     actionListToggle: 1
@@ -1314,6 +1317,7 @@ MonoBehaviour:
     aiOpponent: 0
     challengeSequence: 0
     autoMoveNext: 1
+    reloadMatch: 0
     skipOutro: 0
     nextChallengeDelay: 1
     actionListToggle: 1
@@ -1332,6 +1336,7 @@ MonoBehaviour:
     aiOpponent: 0
     challengeSequence: 0
     autoMoveNext: 1
+    reloadMatch: 0
     skipOutro: 0
     nextChallengeDelay: 1
     actionListToggle: 1
@@ -1350,6 +1355,7 @@ MonoBehaviour:
     aiOpponent: 0
     challengeSequence: 0
     autoMoveNext: 1
+    reloadMatch: 0
     skipOutro: 0
     nextChallengeDelay: 1
     actionListToggle: 1
@@ -1368,6 +1374,7 @@ MonoBehaviour:
     aiOpponent: 0
     challengeSequence: 1
     autoMoveNext: 1
+    reloadMatch: 0
     skipOutro: 0
     nextChallengeDelay: 0.6
     actionListToggle: 1
@@ -1546,9 +1553,9 @@ MonoBehaviour:
     inputMessageFrequency: 0
     synchronizationMessageFrequency: 0
     synchronizationAction: 1
-  music: 0
-  musicVolume: 0.29708967
-  soundfx: 0
+  music: 1
+  musicVolume: 1
+  soundfx: 1
   soundfxVolume: 1
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
