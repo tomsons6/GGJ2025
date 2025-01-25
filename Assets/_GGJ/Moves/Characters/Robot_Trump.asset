@@ -103,7 +103,7 @@ MonoBehaviour:
       bodyPart: 5
       effect: 0.3
     target: 1
-    effect: 1
+    effect: 0.2
     overrideAnimation: 1
     disableOnHit: 1
   customControls:
