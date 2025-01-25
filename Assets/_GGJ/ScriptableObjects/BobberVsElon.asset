@@ -186,7 +186,7 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 0
   deploymentOptions:
-    deploymentType: 1
+    deploymentType: 0
     activeCharacters:
     - {fileID: 11400000, guid: 2c97340bfbf6963478c0671a3e1f731a, type: 2}
     - {fileID: 11400000, guid: 8b37eb32a581a9b468b4ad69f71bd35b, type: 2}
@@ -1160,7 +1160,7 @@ MonoBehaviour:
     refillTime: 3
   challengeModeOptions: []
   aiOptions:
-    engine: 0
+    engine: 1
     attackWhenEnemyIsDown: 0
     moveWhenEnemyIsDown: 0
     inputFrequency: 0.3
@@ -1168,8 +1168,20 @@ MonoBehaviour:
     distanceBehaviour: []
     multiCoreSupport: 1
     persistentBehavior: 0
-    difficultyToggle: 0
-    difficultySettings: []
+    difficultyToggle: 1
+    difficultySettings:
+    - difficultyLevel: 1
+      overrideTimeBetweenDecisions: 0
+      timeBetweenDecisions: 0
+      overrideTimeBetweenActions: 0
+      timeBetweenActions: 0.05
+      overrideAggressiveness: 0
+      aggressiveness: 0.5
+      overrideRuleCompliance: 0
+      ruleCompliance: 0.9
+      overrideComboEfficiency: 0
+      comboEfficiency: 1
+      startupBehavior: 0
     selectedDifficultyLevel: 2
     selectedDifficulty:
       difficultyLevel: 0
