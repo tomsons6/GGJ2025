@@ -68,18 +68,18 @@ MonoBehaviour:
     canJump: 1
     pressureSensitiveJump: 0
     _jumpForce:
-      _serializedValue: 214748364800
+      _serializedValue: 51539607552
     _minJumpForce:
       _serializedValue: 128849018880
     minJumpDelay: 3
     _jumpDistance:
-      _serializedValue: 30064771072
+      _serializedValue: 2147483648
     _jumpBackDistance:
-      _serializedValue: 34359738368
+      _serializedValue: 4294967296
     cumulativeForce: 1
     multiJumps: 1
     _weight:
-      _serializedValue: 1632087572480
+      _serializedValue: 429496729600
     jumpDelay: 10
     landingDelay: 7
     _groundCollisionMass:
