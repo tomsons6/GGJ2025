@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 198966787027144488}
   - component: {fileID: 199139376031926102}
   m_Layer: 0
-  m_Name: GibletExplodeGrass
+  m_Name: TacoExplosion - Copy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
