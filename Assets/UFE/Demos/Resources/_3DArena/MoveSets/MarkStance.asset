@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MarkStance
   m_EditorClassIdentifier: 
   combatStance: 0
-  cinematicIntro: {fileID: 0}
+  cinematicIntro: {fileID: 11400000, guid: a70b0e7dc69624c459a2e6adcf3a6a71, type: 2}
   cinematicOutro: {fileID: 11400000, guid: 6c0aa60dcb9f24a71b3ae45dc3e7b123, type: 2}
   roundOutro: {fileID: 11400000, guid: 6c0aa60dcb9f24a71b3ae45dc3e7b123, type: 2}
   timeOutOutro: {fileID: 0}
