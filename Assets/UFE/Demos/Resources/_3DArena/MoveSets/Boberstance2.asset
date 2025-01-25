@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Boberstance2
   m_EditorClassIdentifier: 
   combatStance: 0
-  cinematicIntro: {fileID: 11400000, guid: c1108029bd94e422d90f72dcd54950d2, type: 2}
+  cinematicIntro: {fileID: 0}
   cinematicOutro: {fileID: 11400000, guid: c1108029bd94e422d90f72dcd54950d2, type: 2}
   roundOutro: {fileID: 11400000, guid: c1108029bd94e422d90f72dcd54950d2, type: 2}
   timeOutOutro: {fileID: 0}
@@ -121,7 +121,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 0
-      name: 
+      name: idle
       editorToggle: 0
       soundEffectsToggle: 0
     moveForward:
@@ -226,8 +226,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 1
+      name: moveForward
       editorToggle: 1
       soundEffectsToggle: 0
     moveBack:
@@ -332,8 +332,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 2
+      name: moveBack
       editorToggle: 0
       soundEffectsToggle: 0
     moveSideways:
@@ -544,8 +544,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 3
+      name: crouching
       editorToggle: 0
       soundEffectsToggle: 0
     takeOff:
@@ -650,8 +650,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 4
+      name: takeOff
       editorToggle: 0
       soundEffectsToggle: 0
     jumpStraight:
@@ -756,8 +756,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 5
+      name: jumpStraight
       editorToggle: 0
       soundEffectsToggle: 0
     jumpBack:
@@ -1074,8 +1074,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 8
+      name: fallStraight
       editorToggle: 0
       soundEffectsToggle: 0
     fallBack:
@@ -1392,8 +1392,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 11
+      name: landing
       editorToggle: 0
       soundEffectsToggle: 0
     blockingCrouchingPose:
@@ -1498,8 +1498,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 15
+      name: blockingCrouchingPose
       editorToggle: 0
       soundEffectsToggle: 0
     blockingCrouchingHit:
@@ -1604,8 +1604,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 16
+      name: blockingCrouchingHit
       editorToggle: 0
       soundEffectsToggle: 0
     blockingHighPose:
@@ -1710,8 +1710,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 12
+      name: blockingHighPose
       editorToggle: 0
       soundEffectsToggle: 0
     blockingHighHit:
@@ -1816,8 +1816,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 13
+      name: blockingHighHit
       editorToggle: 0
       soundEffectsToggle: 0
     blockingLowHit:
@@ -2240,8 +2240,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 21
+      name: parryCrouching
       editorToggle: 0
       soundEffectsToggle: 0
     parryHigh:
@@ -2346,8 +2346,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 19
+      name: parryHigh
       editorToggle: 0
       soundEffectsToggle: 0
     parryLow:
@@ -2664,8 +2664,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 32
+      name: groundBounce
       editorToggle: 0
       soundEffectsToggle: 0
     standingWallBounce:
@@ -2982,8 +2982,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 35
+      name: airWallBounce
       editorToggle: 0
       soundEffectsToggle: 0
     fallingFromGroundBounce:
@@ -3088,8 +3088,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 38
+      name: fallingFromBounce
       editorToggle: 0
       soundEffectsToggle: 0
     fallingFromAirHit:
@@ -3300,8 +3300,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 36
+      name: fallDown
       editorToggle: 0
       soundEffectsToggle: 0
     airRecovery:
@@ -3406,8 +3406,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 39
+      name: airRecovery
       editorToggle: 0
       soundEffectsToggle: 0
     getHitCrouching:
@@ -3512,8 +3512,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 25
+      name: getHitCrouching
       editorToggle: 0
       soundEffectsToggle: 0
     getHitHigh:
@@ -3618,8 +3618,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 23
+      name: getHitHigh
       editorToggle: 0
       soundEffectsToggle: 0
     getHitLow:
@@ -3724,8 +3724,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 24
+      name: getHitLow
       editorToggle: 0
       soundEffectsToggle: 0
     getHitHighKnockdown:
@@ -3830,8 +3830,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 28
+      name: getHitHighKnockdown
       editorToggle: 0
       soundEffectsToggle: 0
     getHitMidKnockdown:
@@ -4042,8 +4042,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 26
+      name: getHitAir
       editorToggle: 0
       soundEffectsToggle: 0
     getHitCrumple:
@@ -4148,8 +4148,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 31
+      name: getHitCrumple
       editorToggle: 0
       soundEffectsToggle: 0
     getHitKnockBack:
@@ -4254,8 +4254,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 27
+      name: getHitKnockBack
       editorToggle: 0
       soundEffectsToggle: 0
     getHitSweep:
@@ -4360,8 +4360,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 30
+      name: getHitSweep
       editorToggle: 0
       soundEffectsToggle: 0
     standUp:
@@ -4466,8 +4466,8 @@ MonoBehaviour:
         positionOffSet: {x: 0, y: 0, z: 0}
         bodyPart: 0
         hitBoxDefinitionIndex: 0
-      reference: 0
-      name: 
+      reference: 40
+      name: standUp
       editorToggle: 0
       soundEffectsToggle: 0
     standUpFromAirHit:
@@ -5430,13 +5430,13 @@ MonoBehaviour:
     blockEnabled: 1
     parryEnabled: 1
   attackMoves:
+  - {fileID: 11400000, guid: 320462fb6bc4b4740b2f0d6cd82d4b9e, type: 2}
   - {fileID: 11400000, guid: 36661d2d50aa86547a65e61e0ed6f554, type: 2}
   - {fileID: 11400000, guid: bf819d792abafab4688eeaf37b76db28, type: 2}
   - {fileID: 11400000, guid: 44c3c3afd823aca46a7f0da771012463, type: 2}
-  - {fileID: 11400000, guid: 320462fb6bc4b4740b2f0d6cd82d4b9e, type: 2}
   - {fileID: 11400000, guid: 39c977a4c1a27d24885657a223c77395, type: 2}
   - {fileID: 11400000, guid: 0400c5bd6f928fa45811315b3792a0f8, type: 2}
   - {fileID: 11400000, guid: f2bcb0c61980d6c41bfd7628d28ed821, type: 2}
   - {fileID: 11400000, guid: d77a2b4dae1362043b3162a781924fe6, type: 2}
-  - {fileID: 11400000, guid: 85b349ce500fe9445be3cfd762c7769a, type: 2}
   - {fileID: 11400000, guid: 6af1381e037c4d844b884292a90ce52b, type: 2}
+  - {fileID: 11400000, guid: 85b349ce500fe9445be3cfd762c7769a, type: 2}
