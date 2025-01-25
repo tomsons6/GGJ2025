@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Robot_Trump
   m_EditorClassIdentifier: 
   gameplayType: 2
-  profilePictureSmall: {fileID: 2800000, guid: f6cd0e932ab14864783b2925a52ab9f6, type: 3}
-  profilePictureBig: {fileID: 2800000, guid: f6cd0e932ab14864783b2925a52ab9f6, type: 3}
-  characterName: Bober Kurwa
+  profilePictureSmall: {fileID: 2800000, guid: e3825eabcba60d147b4682475f27e58f, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: e3825eabcba60d147b4682475f27e58f, type: 3}
+  characterName: Donald J. Trump
   gender: 1
   characterDescription: 'Project: Arena 3D
 
@@ -26,28 +26,28 @@ MonoBehaviour:
   selectionAnimation: {fileID: 7400000, guid: 3a48688ef36f42d44b85984ef29cce4d, type: 2}
   selectionSound: {fileID: 0}
   deathSound: {fileID: 0}
-  height: 182
-  age: 1
+  height: 150
+  age: 78
   bloodType: Unknown
   lifePoints: 1000
   maxGaugePoints: 1000
   characterPrefabStorage: 0
-  characterPrefab: {fileID: 2765823178086615120, guid: 3ea53e9490796094db2c4117a1963981,
+  characterPrefab: {fileID: 2344156984955961279, guid: 08207ddc4f6408b4cafb633dad644831,
     type: 3}
   prefabResourcePath: _3DArena\Characters\Robot_Kyle
   alternativeCostumes: []
   initialPosition:
     x:
-      _serializedValue: 0
+      _serializedValue: 1531589
     y:
       _serializedValue: 0
     z:
-      _serializedValue: 0
+      _serializedValue: -194237024
   initialRotation:
     x:
       _serializedValue: 0
     y:
-      _serializedValue: 0
+      _serializedValue: 3008
     z:
       _serializedValue: 0
     w:
@@ -121,14 +121,14 @@ MonoBehaviour:
   _blendingTime:
     _serializedValue: 257698032
   animationType: 1
-  avatar: {fileID: 9000000, guid: d57a5fc55704dd64d9660f37b589d27c, type: 3}
+  avatar: {fileID: 9000000, guid: 00f87c77cabe63b4a8c6ccc40a41b0cc, type: 3}
   useScaleFlip: 0
   applyRootMotion: 0
   animationFlow: 0
   useAnimationMaps: 0
   normalizeAnimationFrames: 0
   stanceResourcePath:
-  - _3DArena\MoveSets\Boberstance2
+  - _3DArena\MoveSets\DonaldStance
   moves: []
   aiInstructionsSet:
   - aiInfo: {fileID: 11400000, guid: 5c7f03bfedfeaca42a91e28c053f9ce0, type: 2}

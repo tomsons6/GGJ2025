@@ -128,11 +128,15 @@ MonoBehaviour:
       ending: {fileID: 0}
       fightsGroups: []
       showStoryInEditor: 0
-    selectableCharactersInStoryMode: 0000000001000000
-    selectableCharactersInVersusMode: 0000000001000000
+    selectableCharactersInStoryMode: 000000000100000002000000
+    selectableCharactersInVersusMode: 000000000100000002000000
     characterStories:
-      _keys: 0000000001000000
+      _keys: 000000000100000002000000
       _values:
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups: []
@@ -186,7 +190,7 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 0
   deploymentOptions:
-    deploymentType: 1
+    deploymentType: 0
     activeCharacters:
     - {fileID: 11400000, guid: 2c97340bfbf6963478c0671a3e1f731a, type: 2}
     - {fileID: 11400000, guid: 8b37eb32a581a9b468b4ad69f71bd35b, type: 2}
@@ -770,7 +774,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
@@ -915,7 +919,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -1094,6 +1098,7 @@ MonoBehaviour:
   characters:
   - {fileID: 11400000, guid: 2c97340bfbf6963478c0671a3e1f731a, type: 2}
   - {fileID: 11400000, guid: 8b37eb32a581a9b468b4ad69f71bd35b, type: 2}
+  - {fileID: 11400000, guid: 8d703e98c38751746b931956d98d53d0, type: 2}
   teamModes: []
   debugOptions:
     debugMode: 0
@@ -1120,7 +1125,7 @@ MonoBehaviour:
     displayInputsStoryMode: 0
     displayInputsChallengeMode: 0
     p1DebugInfo:
-      toggle: 0
+      toggle: 1
       currentMove: 1
       position: 1
       lifePoints: 1
