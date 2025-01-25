@@ -186,13 +186,13 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 0
   deploymentOptions:
-    deploymentType: 0
+    deploymentType: 1
     activeCharacters:
     - {fileID: 11400000, guid: 2c97340bfbf6963478c0671a3e1f731a, type: 2}
     - {fileID: 11400000, guid: 8b37eb32a581a9b468b4ad69f71bd35b, type: 2}
     AIControlled: 0000
     selectedTeamMode: 0
-    skipLoadingScreen: 0
+    skipLoadingScreen: 1
   cameraOptions:
     initialDistance: {x: 0, y: -2.6, z: -5.94}
     initialRotation: {x: 0, y: 0, z: 0}
@@ -770,7 +770,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P1JoystickHorizontal
     cInputPositiveKeyName: P1Right
     cInputPositiveDefaultKey: D
