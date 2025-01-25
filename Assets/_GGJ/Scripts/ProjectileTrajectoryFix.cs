@@ -25,7 +25,9 @@ public class ProjectileTrajectoryFix : MonoBehaviour
     
     IEnumerator Start()
     {
+        yield return new WaitForSeconds(.1f);
         yield return new WaitForFixedUpdate();
+        
         Vector3 target = GetTargetPosition();
         transform.forward = (target - transform.position).normalized;
     }
