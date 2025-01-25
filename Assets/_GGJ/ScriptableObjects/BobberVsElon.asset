@@ -190,7 +190,7 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 0
   deploymentOptions:
-    deploymentType: 1
+    deploymentType: 0
     activeCharacters:
     - {fileID: 11400000, guid: 2c97340bfbf6963478c0671a3e1f731a, type: 2}
     - {fileID: 11400000, guid: 8b37eb32a581a9b468b4ad69f71bd35b, type: 2}
@@ -1251,8 +1251,8 @@ MonoBehaviour:
     synchronizationAction: 1
   music: 1
   musicVolume: 1
-  soundfx: 1
-  soundfxVolume: 1
+  soundfx: 0
+  soundfxVolume: 0.9655352
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
