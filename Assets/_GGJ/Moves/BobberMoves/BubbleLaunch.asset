@@ -6886,9 +6886,9 @@ MonoBehaviour:
   forceMirrorRight: 0
   invertRotationLeft: 0
   invertRotationRight: 0
-  autoCorrectRotation: 0
+  autoCorrectRotation: 1
   allowSideSwitch: 0
-  frameWindowRotation: 0
+  frameWindowRotation: 2
   cooldown: 0
   cooldownFrames: 0
   disableHeadLook: 1
@@ -7177,7 +7177,7 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-    speed: 25
+    speed: 15
     directionAngle: 0
     _duration:
       _serializedValue: 12884901888
@@ -7185,7 +7185,7 @@ MonoBehaviour:
     fixedZAxis: 0
     projectileCollision: 1
     unblockable: 0
-    mirrorOn2PSide: 0
+    mirrorOn2PSide: 1
     destroyWhenOffCameraBounds: 1
     applyGravity: 0
     limitMultiCasting: 0
@@ -7496,7 +7496,7 @@ MonoBehaviour:
     moveLinkOnBlock: {fileID: 0}
     moveLinkOnParry: {fileID: 0}
     forceGrounded: 0
-    moveLinksToggle: 0
+    moveLinksToggle: 1
     damageOptionsToggle: 1
     hitStunOptionsToggle: 1
     preview: 1
