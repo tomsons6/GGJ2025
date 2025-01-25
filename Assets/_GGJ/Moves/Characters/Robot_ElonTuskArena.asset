@@ -121,7 +121,7 @@ MonoBehaviour:
   _blendingTime:
     _serializedValue: 257698032
   animationType: 1
-  avatar: {fileID: 9000000, guid: d57a5fc55704dd64d9660f37b589d27c, type: 3}
+  avatar: {fileID: 9000000, guid: ad16924f1cc06ae4b8e390d7432d2f72, type: 3}
   useScaleFlip: 0
   applyRootMotion: 0
   animationFlow: 0
