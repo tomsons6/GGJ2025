@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6638590929663793046}
   - component: {fileID: 7750370406777919539}
   - component: {fileID: 5506265840261164281}
+  - component: {fileID: 6310752466781259473}
   m_Layer: 0
   m_Name: MexicanMan
   m_TagString: Untagged
@@ -84,6 +85,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6310752466781259473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6299080037267000620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0e95358734624f1d9268c3b0a1346a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trajectoryType: 1
 --- !u!1001 &5921182734815786133
 PrefabInstance:
   m_ObjectHideFlags: 0
