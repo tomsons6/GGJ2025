@@ -100,7 +100,7 @@ MonoBehaviour:
   music: {fileID: 8300000, guid: 8f5895e0e2b614cf68d32a98cbbad6de, type: 3}
   skippable: 1
   stopPreviousSoundEffectsOnLoad: 0
-  delayBeforePlayingMusic: 0.1
+  delayBeforePlayingMusic: 0
   delayBeforeGoingToMenu: 3
   minDelayBeforeSkipping: 0.1
 --- !u!82 &1491058623449212880
