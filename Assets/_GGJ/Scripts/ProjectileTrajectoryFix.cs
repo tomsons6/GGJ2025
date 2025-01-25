@@ -23,28 +23,42 @@ public class ProjectileTrajectoryFix : MonoBehaviour
         }
     }
     
+    private Vector3? _target;
+    
     IEnumerator Start()
     {
-        yield return new WaitForSeconds(.1f);
         yield return new WaitForFixedUpdate();
-        
-        Vector3 target = GetTargetPosition();
-        transform.forward = (target - transform.position).normalized;
+
+        int cnt = 0;
+
+        do
+        {
+            TryGetTargetPosition();
+
+            if (_target.HasValue)
+            {
+                transform.forward = (_target.GetValueOrDefault() - transform.position).normalized;
+                yield break;
+            }
+            
+            yield return null;
+
+        }  while (cnt++ < 30);
     }
 
-    Vector3 GetTargetPosition()
+    void TryGetTargetPosition()
     {
         switch (dirType)
         {
             case DirType.Target:
                 ProjectileMoveScript projectileScript = GetComponent<ProjectileMoveScript>();
-                return projectileScript.target.ToVector();
-
+                _target = projectileScript.target.ToVector();
+                break;
             case DirType.Camera:
-                return Camera.transform.position;
+                _target = Camera.transform.position;
                 break;
         }
-        
-        return Vector3.zero;
     }
+
+
 }
