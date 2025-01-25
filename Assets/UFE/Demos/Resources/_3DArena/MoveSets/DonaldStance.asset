@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: DonaldStance
   m_EditorClassIdentifier: 
   combatStance: 0
-  cinematicIntro: {fileID: 0}
-  cinematicOutro: {fileID: 0}
-  roundOutro: {fileID: 0}
+  cinematicIntro: {fileID: 11400000, guid: 7ac8bf301fffc4561ae42edc7d8113a2, type: 2}
+  cinematicOutro: {fileID: 11400000, guid: 7ac8bf301fffc4561ae42edc7d8113a2, type: 2}
+  roundOutro: {fileID: 11400000, guid: 7ac8bf301fffc4561ae42edc7d8113a2, type: 2}
   timeOutOutro: {fileID: 0}
   basicMoves:
     idle:
