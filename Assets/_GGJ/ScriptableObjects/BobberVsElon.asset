@@ -1251,8 +1251,8 @@ MonoBehaviour:
     synchronizationAction: 1
   music: 1
   musicVolume: 1
-  soundfx: 1
-  soundfxVolume: 1
+  soundfx: 0
+  soundfxVolume: 0.9655352
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

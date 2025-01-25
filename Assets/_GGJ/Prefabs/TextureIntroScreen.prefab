@@ -97,7 +97,7 @@ MonoBehaviour:
   wrapInput: 1
   mainMenuFrameDelay: 6
   onLoadSound: {fileID: 0}
-  music: {fileID: 0}
+  music: {fileID: 8300000, guid: 8f5895e0e2b614cf68d32a98cbbad6de, type: 3}
   skippable: 1
   stopPreviousSoundEffectsOnLoad: 0
   delayBeforePlayingMusic: 0.1
