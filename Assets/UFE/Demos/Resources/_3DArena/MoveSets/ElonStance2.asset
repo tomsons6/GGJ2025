@@ -5431,12 +5431,12 @@ MonoBehaviour:
     parryEnabled: 1
   attackMoves:
   - {fileID: 11400000, guid: 3d5173f32bc1d37409921c7b13fff62e, type: 2}
-  - {fileID: 11400000, guid: bf819d792abafab4688eeaf37b76db28, type: 2}
-  - {fileID: 11400000, guid: 44c3c3afd823aca46a7f0da771012463, type: 2}
-  - {fileID: 11400000, guid: 320462fb6bc4b4740b2f0d6cd82d4b9e, type: 2}
-  - {fileID: 11400000, guid: 39c977a4c1a27d24885657a223c77395, type: 2}
-  - {fileID: 11400000, guid: 0400c5bd6f928fa45811315b3792a0f8, type: 2}
-  - {fileID: 11400000, guid: f2bcb0c61980d6c41bfd7628d28ed821, type: 2}
-  - {fileID: 11400000, guid: d77a2b4dae1362043b3162a781924fe6, type: 2}
-  - {fileID: 11400000, guid: 85b349ce500fe9445be3cfd762c7769a, type: 2}
-  - {fileID: 11400000, guid: 6af1381e037c4d844b884292a90ce52b, type: 2}
+  - {fileID: 11400000, guid: 69d313c622ae54d40ae05cd9c3b29cb5, type: 2}
+  - {fileID: 11400000, guid: d6f90e1d2ca0df347a22032e21bb0e55, type: 2}
+  - {fileID: 11400000, guid: 8be2407ebac42da4d98b1e3910403994, type: 2}
+  - {fileID: 11400000, guid: 9049507f057564b4781f858c2ec78a72, type: 2}
+  - {fileID: 11400000, guid: 4a62a8380aa64ae4ebde9ec31aa33c4e, type: 2}
+  - {fileID: 11400000, guid: 5f7ec2ecf7236ae4b8c710aae507c599, type: 2}
+  - {fileID: 11400000, guid: 69078d499f0da36408dd659cf5716011, type: 2}
+  - {fileID: 11400000, guid: 0d125eac0032497468f375e0612bbce6, type: 2}
+  - {fileID: 11400000, guid: ef334804e0fae7648b1a5eaaa592ce3d, type: 2}
