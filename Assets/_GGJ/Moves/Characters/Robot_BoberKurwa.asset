@@ -34,7 +34,7 @@ MonoBehaviour:
   characterPrefabStorage: 0
   characterPrefab: {fileID: 2765823178086615120, guid: 3ea53e9490796094db2c4117a1963981,
     type: 3}
-  prefabResourcePath: _3DArena\Characters\Robot_Kyle
+  prefabResourcePath: _3DArena\Characters\BoberKurwa
   alternativeCostumes: []
   initialPosition:
     x:

@@ -34,7 +34,7 @@ MonoBehaviour:
   characterPrefabStorage: 0
   characterPrefab: {fileID: 3518530410664286381, guid: 3a42faa15d330614394b33c9bb2f89e3,
     type: 3}
-  prefabResourcePath: _3DArena\Characters\Robot_Kyle
+  prefabResourcePath: _3DArena\Characters\ElonMusk
   alternativeCostumes: []
   initialPosition:
     x:

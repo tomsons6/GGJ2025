@@ -34,7 +34,7 @@ MonoBehaviour:
   characterPrefabStorage: 0
   characterPrefab: {fileID: 2344156984955961279, guid: 08207ddc4f6408b4cafb633dad644831,
     type: 3}
-  prefabResourcePath: _3DArena\Characters\Robot_Kyle
+  prefabResourcePath: _3DArena\Characters\Trumpet
   alternativeCostumes: []
   initialPosition:
     x:

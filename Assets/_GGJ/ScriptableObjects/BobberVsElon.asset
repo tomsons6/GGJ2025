@@ -160,8 +160,8 @@ MonoBehaviour:
     _serializedValue: 1589137920
   detect3D_Hits: 1
   lockZAxis: 0
-  runInBackground: 0
-  useFixedUpdateInputs: 0
+  runInBackground: 1
+  useFixedUpdateInputs: 1
   sortCharacterOnHit: 0
   foregroundSortLayer: 0
   backgroundSortLayer: 0
@@ -190,7 +190,7 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 0
   deploymentOptions:
-    deploymentType: 0
+    deploymentType: 1
     activeCharacters:
     - {fileID: 11400000, guid: 2c97340bfbf6963478c0671a3e1f731a, type: 2}
     - {fileID: 11400000, guid: 8b37eb32a581a9b468b4ad69f71bd35b, type: 2}
@@ -342,22 +342,22 @@ MonoBehaviour:
     comboDisplayMode: 0
     hitStunDeterioration: 0
     damageDeterioration: 0
-    airJuggleDeterioration: 0
+    airJuggleDeterioration: 5
     _minHitStun: 0
     _minDamage:
       _serializedValue: 0
     _minPushForce:
-      _serializedValue: 0
+      _serializedValue: 4294967296
     maxConsecutiveCrumple: 1
-    airJuggleDeteriorationType: 0
+    airJuggleDeteriorationType: 1
     neverAirRecover: 0
-    airRecoveryType: 1
+    airRecoveryType: 0
     resetFallingForceOnHit: 1
-    maxCombo: 99
+    maxCombo: 2
     _knockBackMinForce:
-      _serializedValue: 0
+      _serializedValue: 4294967296
     neverCornerPush: 0
-    fixJuggleWeight: 1
+    fixJuggleWeight: 0
     _juggleWeight:
       _serializedValue: 0
   blockOptions:
@@ -428,7 +428,7 @@ MonoBehaviour:
         _serializedValue: 2576980480
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 0
-      editorToggle: 0
+      editorToggle: 1
       hasQuickStand: 0
       _predefinedPushForce:
         x:
@@ -474,7 +474,7 @@ MonoBehaviour:
         _serializedValue: 2576980480
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 0
-      editorToggle: 0
+      editorToggle: 1
       hasQuickStand: 0
       _predefinedPushForce:
         x:
@@ -497,7 +497,7 @@ MonoBehaviour:
         _serializedValue: 2576980480
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 0
-      editorToggle: 0
+      editorToggle: 1
       hasQuickStand: 0
       _predefinedPushForce:
         x:
@@ -520,7 +520,7 @@ MonoBehaviour:
         _serializedValue: 2576980480
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 0
-      editorToggle: 0
+      editorToggle: 1
       hasQuickStand: 0
       _predefinedPushForce:
         x:
@@ -543,7 +543,7 @@ MonoBehaviour:
         _serializedValue: 2576980480
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 0
-      editorToggle: 0
+      editorToggle: 1
       hasQuickStand: 0
       _predefinedPushForce:
         x:
@@ -611,19 +611,19 @@ MonoBehaviour:
       _freezingTime:
         _serializedValue: 0
       _animationSpeed:
-        _serializedValue: 429496729
+        _serializedValue: 429496736
       autoHitStop: 1
       sticky: 0
       _hitStop:
-        _serializedValue: 429496729
+        _serializedValue: 0
       mirrorOn2PSide: 0
       shakeCharacterOnHit: 1
       shakeCameraOnHit: 1
       _shakeDensity:
-        _serializedValue: 3435973836
+        _serializedValue: 3435973888
       _shakeCameraDensity:
-        _serializedValue: 3435973836
-      editorToggle: 0
+        _serializedValue: 3435973888
+      editorToggle: 1
     crumpleHit:
       hitParticle: {fileID: 0}
       killTime: 0
@@ -758,18 +758,18 @@ MonoBehaviour:
       _freezingTime:
         _serializedValue: 0
       _animationSpeed:
-        _serializedValue: 429496729
+        _serializedValue: 429496736
       autoHitStop: 1
       sticky: 0
       _hitStop:
-        _serializedValue: 429496729
+        _serializedValue: 0
       mirrorOn2PSide: 0
       shakeCharacterOnHit: 1
       shakeCameraOnHit: 1
       _shakeDensity:
-        _serializedValue: 3435973836
+        _serializedValue: 3435973888
       _shakeCameraDensity:
-        _serializedValue: 3435973836
+        _serializedValue: 3435973888
       editorToggle: 0
   player1_Inputs:
   - inputType: 0
@@ -919,7 +919,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -935,7 +935,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P2JoystickVertical
     cInputPositiveKeyName: P2Up
     cInputPositiveDefaultKey: UpArrow
