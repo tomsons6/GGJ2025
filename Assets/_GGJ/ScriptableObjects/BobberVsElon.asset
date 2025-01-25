@@ -357,7 +357,7 @@ MonoBehaviour:
     _juggleWeight:
       _serializedValue: 0
   blockOptions:
-    blockType: 0
+    blockType: 5
     allowAirBlock: 0
     ignoreAppliedForceBlock: 0
     allowMoveCancel: 0
