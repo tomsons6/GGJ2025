@@ -186,7 +186,7 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 0
   deploymentOptions:
-    deploymentType: 1
+    deploymentType: 0
     activeCharacters:
     - {fileID: 11400000, guid: 2c97340bfbf6963478c0671a3e1f731a, type: 2}
     - {fileID: 11400000, guid: 8b37eb32a581a9b468b4ad69f71bd35b, type: 2}
@@ -421,7 +421,7 @@ MonoBehaviour:
       _knockedOutTime:
         _serializedValue: 8589934592
       _standUpTime:
-        _serializedValue: 2576980377
+        _serializedValue: 2576980480
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 0
       editorToggle: 0
@@ -444,7 +444,7 @@ MonoBehaviour:
       _knockedOutTime:
         _serializedValue: 8589934592
       _standUpTime:
-        _serializedValue: 2576980377
+        _serializedValue: 2576980480
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 0
       editorToggle: 0
@@ -467,7 +467,7 @@ MonoBehaviour:
       _knockedOutTime:
         _serializedValue: 8589934592
       _standUpTime:
-        _serializedValue: 2576980377
+        _serializedValue: 2576980480
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 0
       editorToggle: 0
@@ -490,7 +490,7 @@ MonoBehaviour:
       _knockedOutTime:
         _serializedValue: 8589934592
       _standUpTime:
-        _serializedValue: 2576980377
+        _serializedValue: 2576980480
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 0
       editorToggle: 0
@@ -513,7 +513,7 @@ MonoBehaviour:
       _knockedOutTime:
         _serializedValue: 8589934592
       _standUpTime:
-        _serializedValue: 2576980377
+        _serializedValue: 2576980480
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 0
       editorToggle: 0
@@ -536,7 +536,7 @@ MonoBehaviour:
       _knockedOutTime:
         _serializedValue: 8589934592
       _standUpTime:
-        _serializedValue: 2576980377
+        _serializedValue: 2576980480
       hideHitBoxesOnFrame: 10
       hideHitBoxes: 0
       editorToggle: 0
@@ -565,18 +565,18 @@ MonoBehaviour:
       _freezingTime:
         _serializedValue: 0
       _animationSpeed:
-        _serializedValue: 429496729
+        _serializedValue: 429496736
       autoHitStop: 1
       sticky: 0
       _hitStop:
-        _serializedValue: 429496729
+        _serializedValue: 0
       mirrorOn2PSide: 0
       shakeCharacterOnHit: 1
       shakeCameraOnHit: 1
       _shakeDensity:
-        _serializedValue: 3435973836
+        _serializedValue: 3435973888
       _shakeCameraDensity:
-        _serializedValue: 3435973836
+        _serializedValue: 3435973888
       editorToggle: 0
     mediumHit:
       hitParticle: {fileID: 0}
@@ -586,18 +586,18 @@ MonoBehaviour:
       _freezingTime:
         _serializedValue: 0
       _animationSpeed:
-        _serializedValue: 429496729
+        _serializedValue: 429496736
       autoHitStop: 1
       sticky: 0
       _hitStop:
-        _serializedValue: 429496729
+        _serializedValue: 0
       mirrorOn2PSide: 0
       shakeCharacterOnHit: 1
       shakeCameraOnHit: 1
       _shakeDensity:
-        _serializedValue: 3435973836
+        _serializedValue: 3435973888
       _shakeCameraDensity:
-        _serializedValue: 3435973836
+        _serializedValue: 3435973888
       editorToggle: 0
     heavyHit:
       hitParticle: {fileID: 0}
@@ -786,7 +786,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1068,8 +1068,8 @@ MonoBehaviour:
     controlFreak2Prefab: {fileID: 0}
     controlFreakDeadZone: 0.5
     forceDigitalInput: 1
-    confirmButton: 4
-    cancelButton: 7
+    confirmButton: 7
+    cancelButton: 4
   stages:
   - stageName: Arena Perdole
     stageLoadingMethod: 0
