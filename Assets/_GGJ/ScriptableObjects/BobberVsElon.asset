@@ -194,7 +194,7 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 0
   deploymentOptions:
-    deploymentType: 1
+    deploymentType: 0
     activeCharacters:
     - {fileID: 11400000, guid: 8b37eb32a581a9b468b4ad69f71bd35b, type: 2}
     - {fileID: 11400000, guid: 8d703e98c38751746b931956d98d53d0, type: 2}
@@ -794,7 +794,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -923,7 +923,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
