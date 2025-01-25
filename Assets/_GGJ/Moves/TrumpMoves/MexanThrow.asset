@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03f9522b1b0f53b4c87d047ac5c3794f, type: 3}
-  m_Name: BubbleLaunch
+  m_Name: MexanThrow
   m_EditorClassIdentifier: 
   gameplayType: 2
   animMap:
@@ -7166,8 +7166,9 @@ MonoBehaviour:
     nonAffectedBodyParts: 
   projectiles:
   - castingFrame: 12
-    projectilePrefab: {fileID: 100000, guid: 7bf1e6d7d30e79b46884b7b1cf9a5bb8, type: 3}
-    impactPrefab: {fileID: 100008, guid: 58dabb6e4c6e702499a31dd1f6596057, type: 3}
+    projectilePrefab: {fileID: 6299080037267000620, guid: 3413509c3f267e54eb222a1bf387a72e,
+      type: 3}
+    impactPrefab: {fileID: 100008, guid: 54087e3c641d19c49a20857281359b72, type: 3}
     bodyPart: 8
     hitBoxDefinitionIndex: 0
     _castingOffSet:
@@ -7177,7 +7178,7 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-    speed: 25
+    speed: 10
     directionAngle: 0
     _duration:
       _serializedValue: 12884901888
