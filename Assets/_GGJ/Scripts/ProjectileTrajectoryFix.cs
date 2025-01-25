@@ -13,18 +13,8 @@ public class ProjectileTrajectoryFix : MonoBehaviour
 
     [SerializeField] DirType dirType = DirType.Target;
 
-    private Camera _camera;
-    private Camera Camera
-    {
-        get
-        {
-            if (_camera == null) _camera = Camera.main;
-            return _camera;
-        }
-    }
-    
     private Vector3? _target;
-    
+
     IEnumerator Start()
     {
         yield return new WaitForFixedUpdate();
@@ -40,10 +30,9 @@ public class ProjectileTrajectoryFix : MonoBehaviour
                 transform.forward = (_target.GetValueOrDefault() - transform.position).normalized;
                 yield break;
             }
-            
-            yield return null;
 
-        }  while (cnt++ < 30);
+            yield return null;
+        } while (cnt++ < 30);
     }
 
     void TryGetTargetPosition()
@@ -52,13 +41,19 @@ public class ProjectileTrajectoryFix : MonoBehaviour
         {
             case DirType.Target:
                 ProjectileMoveScript projectileScript = GetComponent<ProjectileMoveScript>();
-                _target = projectileScript.target.ToVector();
+                if (projectileScript)
+                {
+                    _target = projectileScript.target.ToVector();
+                }
+
                 break;
             case DirType.Camera:
-                _target = Camera.transform.position;
+                if (Camera.main)
+                {
+                    _target = Camera.main.transform.position;
+                }
+
                 break;
         }
     }
-
-
 }

@@ -94,7 +94,7 @@ MonoBehaviour:
       bendingMultiplier: 0.5
       maxAngleDifference: 30
       maxBendingAngle: 60
-      responsiveness: 4
+      responsiveness: 1
     nonAffectedJoints:
     - joint: {fileID: 0}
       bodyPart: 4
@@ -103,7 +103,7 @@ MonoBehaviour:
       bodyPart: 5
       effect: 0.3
     target: 1
-    effect: 1
+    effect: 0.2
     overrideAnimation: 1
     disableOnHit: 1
   customControls:
