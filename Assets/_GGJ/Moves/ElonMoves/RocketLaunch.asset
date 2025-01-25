@@ -7178,7 +7178,7 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-    speed: 25
+    speed: 15
     directionAngle: 0
     _duration:
       _serializedValue: 12884901888
