@@ -65,7 +65,7 @@ MonoBehaviour:
     draw: Draw
     defaultSelection: 0
   gameGUI:
-    hasGauge: 1
+    hasGauge: 0
     screenFadeDuration:
       _serializedValue: 2147483648
     gameFadeDuration:
@@ -357,7 +357,7 @@ MonoBehaviour:
     _juggleWeight:
       _serializedValue: 0
   blockOptions:
-    blockType: 0
+    blockType: 5
     allowAirBlock: 0
     ignoreAppliedForceBlock: 0
     allowMoveCancel: 0

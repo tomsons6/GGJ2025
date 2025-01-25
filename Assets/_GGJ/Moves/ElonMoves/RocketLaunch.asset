@@ -7168,7 +7168,7 @@ MonoBehaviour:
   - castingFrame: 12
     projectilePrefab: {fileID: 4578204741230265397, guid: 7608c29271e444f41adefd65a5ecc6ed,
       type: 3}
-    impactPrefab: {fileID: 100008, guid: 270642c674ce99b44ae5263686a8642c, type: 3}
+    impactPrefab: {fileID: 100008, guid: 1a8ab68c64026c64d8ceab0fa3cef9b1, type: 3}
     bodyPart: 8
     hitBoxDefinitionIndex: 0
     _castingOffSet:
