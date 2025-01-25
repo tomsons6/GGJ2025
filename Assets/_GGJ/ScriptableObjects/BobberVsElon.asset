@@ -196,8 +196,8 @@ MonoBehaviour:
   deploymentOptions:
     deploymentType: 1
     activeCharacters:
-    - {fileID: 11400000, guid: 35fa8d8a83ec72246b3d4612dc056a1f, type: 2}
-    - {fileID: 11400000, guid: 8d703e98c38751746b931956d98d53d0, type: 2}
+    - {fileID: 11400000, guid: 2c97340bfbf6963478c0671a3e1f731a, type: 2}
+    - {fileID: 11400000, guid: 8b37eb32a581a9b468b4ad69f71bd35b, type: 2}
     AIControlled: 0000
     selectedTeamMode: 0
     skipLoadingScreen: 1
@@ -794,7 +794,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W

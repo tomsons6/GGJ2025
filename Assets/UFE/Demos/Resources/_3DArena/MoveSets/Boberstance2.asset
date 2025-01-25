@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Boberstance2
   m_EditorClassIdentifier: 
   combatStance: 0
-  cinematicIntro: {fileID: 11400000, guid: 143d6b6cf1acd44418564df72df0d00d, type: 2}
-  cinematicOutro: {fileID: 11400000, guid: 143d6b6cf1acd44418564df72df0d00d, type: 2}
-  roundOutro: {fileID: 11400000, guid: 143d6b6cf1acd44418564df72df0d00d, type: 2}
+  cinematicIntro: {fileID: 11400000, guid: c1108029bd94e422d90f72dcd54950d2, type: 2}
+  cinematicOutro: {fileID: 11400000, guid: c1108029bd94e422d90f72dcd54950d2, type: 2}
+  roundOutro: {fileID: 11400000, guid: c1108029bd94e422d90f72dcd54950d2, type: 2}
   timeOutOutro: {fileID: 0}
   basicMoves:
     idle:
