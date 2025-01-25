@@ -285,11 +285,11 @@ MonoBehaviour:
       z:
         _serializedValue: 0
     _endGameDelay:
-      _serializedValue: 17179869184
+      _serializedValue: 12884901888
     _showMenuDelay:
       _serializedValue: 15032385536
     _newRoundDelay:
-      _serializedValue: 4294967296
+      _serializedValue: 17179869184
     _slowMoTimer:
       _serializedValue: 12884901888
     _slowMoSpeed:
@@ -299,7 +299,7 @@ MonoBehaviour:
     resetPositions: 1
     allowMovementStart: 1
     allowMovementEnd: 1
-    playIntrosAtSameTime: 0
+    playIntrosAtSameTime: 1
     inhibitGaugeGain: 1
     rotateBodyKO: 1
     slowMotionKO: 1
@@ -794,7 +794,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
