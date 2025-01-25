@@ -189,26 +189,26 @@ MonoBehaviour:
     deploymentType: 1
     activeCharacters:
     - {fileID: 11400000, guid: 2c97340bfbf6963478c0671a3e1f731a, type: 2}
-    - {fileID: 11400000, guid: 2c97340bfbf6963478c0671a3e1f731a, type: 2}
+    - {fileID: 11400000, guid: 8b37eb32a581a9b468b4ad69f71bd35b, type: 2}
     AIControlled: 0000
     selectedTeamMode: 0
     skipLoadingScreen: 0
   cameraOptions:
-    initialDistance: {x: 0, y: -1.8, z: -8.9}
+    initialDistance: {x: 0, y: -2.6, z: -5.94}
     initialRotation: {x: 0, y: 0, z: 0}
     enableLookAt: 1
     dollyAngle: 80
     distance3d: 20
     height3d: 4
     stabilizeDolly: 1
-    enableZoom: 0
+    enableZoom: 1
     followCharacters: 1
     initialFieldOfView: 50
     verticalPriority: 0
     verticalThreshold: 0
     movementSpeed: 20
-    minZoom: 40
-    maxZoom: 100
+    minZoom: 0
+    maxZoom: 10
     _maxDistance:
       _serializedValue: 128849018880
     rotationSpeed: 20
