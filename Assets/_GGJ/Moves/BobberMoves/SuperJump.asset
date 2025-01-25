@@ -2496,12 +2496,14 @@ MonoBehaviour:
   fps: 60
   ignoreGravity: 0
   ignoreFriction: 0
-  cancelMoveWheLanding: 0
+  cancelMoveWhenLanding: 0
+  landingMoveLink: {fileID: 0}
   forceMirrorLeft: 0
   forceMirrorRight: 0
   invertRotationLeft: 0
   invertRotationRight: 0
   autoCorrectRotation: 0
+  allowSideSwitch: 0
   frameWindowRotation: 0
   cooldown: 0
   cooldownFrames: 0
@@ -2577,7 +2579,9 @@ MonoBehaviour:
       movingBack: 1
       standBy: 1
       blocking: 0
+      blockStunned: 0
       stunned: 0
+      resetStunValue: 0
     - possibleState: 1
       jumpArc: 0
       jumpArcBegins: 0
@@ -2589,7 +2593,9 @@ MonoBehaviour:
       movingBack: 1
       standBy: 1
       blocking: 0
+      blockStunned: 0
       stunned: 0
+      resetStunValue: 0
     basicMovesToggle: 0
     statesToggle: 1
   moveClassification:
@@ -2665,6 +2671,8 @@ MonoBehaviour:
   - castingFrame: 4
     resetPreviousVertical: 1
     resetPreviousHorizontal: 1
+    affectAssists: 0
+    affectCharacter: 1
     _force:
       x:
         _serializedValue: 30064771072
@@ -2672,6 +2680,7 @@ MonoBehaviour:
         _serializedValue: 257698037760
       z:
         _serializedValue: 0
+  opAppliedForces: []
   slowMoEffects: []
   bodyPartVisibilityChanges: []
   opponentOverride: []
@@ -2680,7 +2689,7 @@ MonoBehaviour:
   - castingFrame: 0
     sounds:
     - {fileID: 0}
-    soundEffectsToggle: 0
+    soundEffectsToggle: 1
   inGameAlert: []
   stanceChanges: []
   cameraMovements: []
@@ -2784,6 +2793,7 @@ MonoBehaviour:
     activeFramesBegin: 0
     activeFramesEnds: 0
     overrideHitEffects: 0
+    blockHits: 0
     hitEffects:
       hitParticle: {fileID: 0}
       killTime: 0
@@ -2794,6 +2804,7 @@ MonoBehaviour:
       _animationSpeed:
         _serializedValue: 429496736
       autoHitStop: 1
+      sticky: 0
       _hitStop:
         _serializedValue: 429496736
       mirrorOn2PSide: 0
@@ -2808,3 +2819,4 @@ MonoBehaviour:
     damageAbsorption: 0
     nonAffectedBodyParts: 
   projectiles: []
+  rotationPreview: {x: 0, y: 90, z: 0}
