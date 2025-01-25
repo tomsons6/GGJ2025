@@ -96,10 +96,10 @@ MonoBehaviour:
     ko: {fileID: 0}
     combos: []
   wonRounds:
-    NotFinishedRounds: {fileID: 21300000, guid: a38dc7db859b547f0975e042056a836e,
+    NotFinishedRounds: {fileID: 21300000, guid: 35c0e8b1171d87544b6aaa91bdc2e9a4,
       type: 3}
-    WonRounds: {fileID: 21300000, guid: d7e59030e811f40c3b650e1355f2fef0, type: 3}
-    LostRounds: {fileID: 21300000, guid: 2dc3593fad8a6487292c722ef858a90a, type: 3}
+    WonRounds: {fileID: 21300000, guid: 9f103e47507967d4bae5eb506070d63e, type: 3}
+    LostRounds: {fileID: 21300000, guid: 847c704357ab2ad47b6f37f0ee0a13c3, type: 3}
     VisibleImages: 0
   player1GUI:
     name: {fileID: 11400024}
@@ -1135,7 +1135,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a38dc7db859b547f0975e042056a836e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 35c0e8b1171d87544b6aaa91bdc2e9a4, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1597,7 +1597,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a38dc7db859b547f0975e042056a836e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 35c0e8b1171d87544b6aaa91bdc2e9a4, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1673,7 +1673,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a38dc7db859b547f0975e042056a836e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 35c0e8b1171d87544b6aaa91bdc2e9a4, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1866,7 +1866,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a38dc7db859b547f0975e042056a836e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 35c0e8b1171d87544b6aaa91bdc2e9a4, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
