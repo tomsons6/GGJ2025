@@ -3579,7 +3579,6 @@ public class ControlsScript : MonoBehaviour {
             // Add force to the move		
             // Air juggle deterioration (the longer the combo, the harder it is to push the opponent higher)
             if (pushForce.y > 0 || (isDead && !isKnockDown)) {
-
 				if (UFE.config.comboOptions.airJuggleDeteriorationType == AirJuggleDeteriorationType.ComboHits){
 					airJuggleHits = comboHits - 1;
 				}

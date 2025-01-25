@@ -296,7 +296,7 @@ MonoBehaviour:
     rotateBodyKO: 1
     slowMotionKO: 1
     cameraZoomKO: 1
-    freezeCamAfterOutro: 1
+    freezeCamAfterOutro: 0
   groundBounceOptions:
     bounceForce: 0
     bouncePrefab: {fileID: 0}
@@ -786,7 +786,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -915,7 +915,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: P2JoystickHorizontal
     cInputPositiveKeyName: P2Right
     cInputPositiveDefaultKey: RightArrow
@@ -931,7 +931,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 2800000, guid: 90523496d8897124e989ad256f109d27, type: 3}
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P2JoystickVertical
     cInputPositiveKeyName: P2Up
     cInputPositiveDefaultKey: UpArrow
@@ -1160,7 +1160,7 @@ MonoBehaviour:
     refillTime: 3
   challengeModeOptions: []
   aiOptions:
-    engine: 0
+    engine: 1
     attackWhenEnemyIsDown: 0
     moveWhenEnemyIsDown: 0
     inputFrequency: 0.3
@@ -1168,8 +1168,20 @@ MonoBehaviour:
     distanceBehaviour: []
     multiCoreSupport: 1
     persistentBehavior: 0
-    difficultyToggle: 0
-    difficultySettings: []
+    difficultyToggle: 1
+    difficultySettings:
+    - difficultyLevel: 1
+      overrideTimeBetweenDecisions: 0
+      timeBetweenDecisions: 0
+      overrideTimeBetweenActions: 0
+      timeBetweenActions: 0.05
+      overrideAggressiveness: 0
+      aggressiveness: 0.5
+      overrideRuleCompliance: 0
+      ruleCompliance: 0.9
+      overrideComboEfficiency: 0
+      comboEfficiency: 1
+      startupBehavior: 0
     selectedDifficultyLevel: 2
     selectedDifficulty:
       difficultyLevel: 0

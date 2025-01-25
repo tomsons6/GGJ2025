@@ -3968,31 +3968,6 @@ MonoBehaviour:
     anyHitConfirmType: 1
   frameLinks:
   - linkType: 0
-    allowBuffer: 0
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 10
-    activeFramesEnds: 28
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 0
-    ignorePlayerConditions: 0
-    ignoreGauge: 0
-    nextMoveStartupFrame: 12
-    linkableMoves:
-    - {fileID: 11400000, guid: ff01e5d848489ee4fb97ea97a0635f7b, type: 2}
-    linkableMovesToggle: 1
-    hitConfirmToggle: 1
-    counterMoveToggle: 0
-  - linkType: 0
     allowBuffer: 1
     onStrike: 1
     onBlock: 1
@@ -4018,6 +3993,31 @@ MonoBehaviour:
     linkableMovesToggle: 1
     hitConfirmToggle: 0
     counterMoveToggle: 1
+  - linkType: 0
+    allowBuffer: 1
+    onStrike: 1
+    onBlock: 1
+    onParry: 1
+    activeFramesBegins: 10
+    activeFramesEnds: 28
+    counterMoveType: 0
+    counterMoveFilter: {fileID: 0}
+    disableHitImpact: 1
+    anyHitStrength: 1
+    hitStrength: 0
+    anyStrokeHitBox: 1
+    hitBoxType: 0
+    anyHitType: 1
+    hitType: 0
+    ignoreInputs: 1
+    ignorePlayerConditions: 0
+    ignoreGauge: 0
+    nextMoveStartupFrame: 12
+    linkableMoves:
+    - {fileID: 11400000, guid: 8be2407ebac42da4d98b1e3910403994, type: 2}
+    linkableMovesToggle: 1
+    hitConfirmToggle: 0
+    counterMoveToggle: 0
   gauges:
   - castingFrame: 0
     targetGauge: 0

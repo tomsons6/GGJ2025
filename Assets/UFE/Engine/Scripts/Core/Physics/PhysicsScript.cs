@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using System.Collections;
 using FPLibrary;
@@ -272,6 +273,10 @@ public class PhysicsScript : MonoBehaviour {
 	public Fix64 GetPossibleAirTime(Fix64 appliedForce) {
         Fix64 maxHeight = (appliedForce * appliedForce) / (appliedGravity * 2);
 		maxHeight += worldTransform.position.y;
+        
+        maxHeight = Fix64.FastAbs(maxHeight) + Fix64.Epsilon;
+        appliedGravity += Fix64.Epsilon;
+        
         return FPMath.Sqrt(maxHeight * 2 / appliedGravity);
 	}
 

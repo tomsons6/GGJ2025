@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e2e5269517f28664db5ccd78cbd208b1, type: 3}
-  m_Name: Robot_ElonTuskArena
+  m_Name: Robot_Trump
   m_EditorClassIdentifier: 
   gameplayType: 2
-  profilePictureSmall: {fileID: 2800000, guid: 83165809f673602489348a9a0d222cea, type: 3}
-  profilePictureBig: {fileID: 2800000, guid: 83165809f673602489348a9a0d222cea, type: 3}
-  characterName: Elon Tusk
+  profilePictureSmall: {fileID: 2800000, guid: f6cd0e932ab14864783b2925a52ab9f6, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: f6cd0e932ab14864783b2925a52ab9f6, type: 3}
+  characterName: Bober Kurwa
   gender: 1
   characterDescription: 'Project: Arena 3D
 
@@ -32,7 +32,7 @@ MonoBehaviour:
   lifePoints: 1000
   maxGaugePoints: 1000
   characterPrefabStorage: 0
-  characterPrefab: {fileID: 3518530410664286381, guid: 3a42faa15d330614394b33c9bb2f89e3,
+  characterPrefab: {fileID: 2765823178086615120, guid: 3ea53e9490796094db2c4117a1963981,
     type: 3}
   prefabResourcePath: _3DArena\Characters\Robot_Kyle
   alternativeCostumes: []
@@ -73,13 +73,13 @@ MonoBehaviour:
       _serializedValue: 128849018880
     minJumpDelay: 3
     _jumpDistance:
-      _serializedValue: 4294967296
+      _serializedValue: 2147483648
     _jumpBackDistance:
-      _serializedValue: 8589934592
+      _serializedValue: 4294967296
     cumulativeForce: 1
     multiJumps: 1
     _weight:
-      _serializedValue: 343597383680
+      _serializedValue: 429496729600
     jumpDelay: 10
     landingDelay: 7
     _groundCollisionMass:
@@ -121,15 +121,15 @@ MonoBehaviour:
   _blendingTime:
     _serializedValue: 257698032
   animationType: 1
-  avatar: {fileID: 9000000, guid: ad16924f1cc06ae4b8e390d7432d2f72, type: 3}
+  avatar: {fileID: 9000000, guid: d57a5fc55704dd64d9660f37b589d27c, type: 3}
   useScaleFlip: 0
   applyRootMotion: 0
   animationFlow: 0
   useAnimationMaps: 0
   normalizeAnimationFrames: 0
   stanceResourcePath:
-  - _3DArena\MoveSets\ElonStance2
+  - _3DArena\MoveSets\Boberstance2
   moves: []
   aiInstructionsSet:
   - aiInfo: {fileID: 11400000, guid: 5c7f03bfedfeaca42a91e28c053f9ce0, type: 2}
-    behavior: 4
+    behavior: 3
