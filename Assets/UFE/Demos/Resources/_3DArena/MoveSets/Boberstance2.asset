@@ -190,7 +190,7 @@ MonoBehaviour:
         bakeSpeed: 0
         hitBoxDefinitionType: 0
       _animationSpeed:
-        _serializedValue: 4294967296
+        _serializedValue: 17179869184
       wrapMode: 2
       moveInfo: {fileID: 0}
       useMoveFile: 0
@@ -228,7 +228,7 @@ MonoBehaviour:
         hitBoxDefinitionIndex: 0
       reference: 0
       name: 
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     moveBack:
       animMap:
