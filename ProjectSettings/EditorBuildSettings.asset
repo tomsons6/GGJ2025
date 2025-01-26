@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/UFE/Demos/_2DFighter/Demo_Fighter2D.unity
     guid: a4f99dda2dd9d4442b85a6936f4bb0d9
-  - enabled: 1
+  - enabled: 0
     path: Assets/UFE/Demos/Shared_Assets/Stages/TrainingRoom2D/TrainingRoom.unity
     guid: 932678a643abbec4394ad92242da150f
   - enabled: 0
@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/UFE/Demos/_3DFighter/Demo_Fighter3D - Type 2.unity
     guid: c9868bd024a5cfc45a00f980547f92ee
+  - enabled: 1
+    path: Assets/_GGJ/Scenes/GameScene.unity
+    guid: 30dfa65e5a622e9469bf079577248e2f
   m_configObjects: {}
