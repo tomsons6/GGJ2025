@@ -287,7 +287,7 @@ MonoBehaviour:
     _endGameDelay:
       _serializedValue: 12884901888
     _showMenuDelay:
-      _serializedValue: 15032385536
+      _serializedValue: 12884901888
     _newRoundDelay:
       _serializedValue: 17179869184
     _slowMoTimer:
