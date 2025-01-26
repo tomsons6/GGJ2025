@@ -24,7 +24,7 @@ MonoBehaviour:
     Animation
     Type: Mecanim'
   selectionAnimation: {fileID: 7400000, guid: 3a48688ef36f42d44b85984ef29cce4d, type: 2}
-  selectionSound: {fileID: 0}
+  selectionSound: {fileID: 8300000, guid: 4129024e59aa1c44583d989b0bb2ec63, type: 3}
   deathSound: {fileID: 8300000, guid: 3ef7e7eb4608dd8458359e3b614c7b89, type: 3}
   height: 150
   age: 78
